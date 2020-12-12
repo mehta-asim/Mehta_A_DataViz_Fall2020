@@ -1,0 +1,147 @@
+*
+{
+	border: 0;
+	padding: 0;
+	margin:0;
+}
+
+body
+{
+	background-color: #E6E7EB;
+	font-family: 'Helvetica';
+}
+
+.container
+{
+	width: 980px;
+	margin: 0 auto;
+	background-color: #fff;*/
+}
+
+.mainHeader
+{
+	height: 384px;
+	width: 980px;
+	background-color:#D42E12;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.mainHeader h1
+{
+	color: #E6E7EB;
+	font-size: 70px;
+	letter-spacing: -1px;
+	text-align: center;
+	margin-bottom: 125px;
+}
+
+.piechart1
+{
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.linegraph
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.subplot
+{
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bargraph
+{
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.scatterplot
+{
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.piegraph2
+{
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.text
+{
+		display: flex;
+		flex-direction: column;
+		justify-content: stretch;
+}
+
+.paragraph
+{
+	margin-top: 15px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.info
+{
+	color: #E6E7EB;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.mainFooter
+{
+	width: 980px;
+	height: 46px;
+	background-color: #5C7879;
+}
+
+h3
+{
+	text-align: right;
+	font-size:30px;
+	color: #D42E12;
+}
+
+p
+{
+	text-align: right;
+	font-size: 20px;
+	color: #012169;
+}
+
+.mainDivider
+{
+	width: 980px;
+	height: 20px;
+	background-color:#012169;
+}
+
+.subDivider
+{
+	width: 980px;
+	height: 5px;
+	background-color:#B6BEC7;
+}
